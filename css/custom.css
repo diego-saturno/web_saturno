@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+}
+
+@media (min-width: 992px) {
+  .header-3.sticky-header.reveal-header .main-menu>li>.nav-link {
+      color: #fff !important;
+  }
+  .header-3.sticky-header.reveal-header {
+      background-color: #19191b;
+  }
+
+  .right-version{
+    text-align: right;
+  }
+}
+
+.omga-01__hero-area {
+  background: transparent;
+  background-color: transparent !important;
+}
+
+#particles-js {
+  position: fixed !important;
+  width: 100%;
+  height: 100% !important;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: 50% 50%;
+}
+
+.omga-01__content-img-group #love{
+  max-width: 85%;
+}
+
+.omga-01__feature-section,
+.omga-01__brands-area {
+  background: transparent;
+  background-color: transparent !important;
+}
+
+i.icon.icon-menu-34.icon-burger {
+  color: #fff;
+}
+
+.links{
+  color: var(--l1-color-oficial);
+  font-family: "CircularStd", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  font-style: italic;
+}
+.links:hover{
+background-color: var(--l1-color-oficial);
+color: #fff;
+}
+
+/* Graeme Customization */
+
+@media screen and (max-width: 992px) {
+  .omga-01__hero-content {
+      padding-right: 0px;
+  }
+  img.logo {
+      margin-left: 12.5%;
+  }
+  h1.title,
+  h2.title,
+  p,
+  .card-text,
+  h2.title.title-right,
+  .right-version {
+      text-align: center;
+  }
+  .card-icon.blue {
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+  .omga-01__content-img-group-2,
+  img#saturno-hug,
+  img#saturno-on-planet {
+      margin-left: 0;
+  }
+  .omga-01__content-img-group-1 img#love{
+    margin-left: 0;
+  }
+  
+  button.navbar-toggler.btn-close-off-canvas.order-3.order-lg-2 {
+      background-color: #F29100;
+  }
+  .hero-btn, a.video-link.hoverable {
+      background-color: #F29100;
+      font-family: "CircularStd", sans-serif !important;
+      text-align: center;
+      padding: 15px 10px;
+      border-radius: 10px;
+      -mozkit-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      transition-delay: .8s;
+  }
+  i.icon.icon-triangle-right-17-2 {
+      display: none;
+  }
+
+  .omga-01__amazon-text .title {
+    padding-bottom: 0px;
+}
+}
